@@ -41,7 +41,10 @@
 /* cross fading between routes with ngView */
 
 .view-container {
-  position: relative;
+  /*position: relative;*/
+  background-color: #fff;
+  border-radius: 25px;
+  padding-top: 10px;
 }
 
 .view-frame.ng-enter,

@@ -2,8 +2,13 @@
 
 body {
   padding-top: 20px;
+  background-color: #dfdfdf;
 }
-
+ul.phones {
+  height: 500px;
+  margin-top: 10px;
+  overflow-y: scroll;
+}
 
 .phone-images {
   background-color: white;
