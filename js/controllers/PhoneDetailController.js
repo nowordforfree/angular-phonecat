@@ -1,5 +1,3 @@
-// const SCOPE = new WeakMap();
-
 class PhoneDetailController {
 	constructor($scope, $routeParams, Phone) {
 		this.$scope = $scope;

@@ -1,5 +1,6 @@
 import { default as phonecatControllers } from './controllers/phonecatApp.controllers';
 import { default as phonecatServices } from './services/phonecatApp.services';
+import { default as animations } from './animations/phonecatApp.animations';
 import { default as filters } from './filters/phonecatApp.filters';
 
 var moduleName = 'phonecatApp';
@@ -26,6 +27,7 @@ angular
     'ngRoute'
     , phonecatControllers
     , phonecatServices
+    , animations
     , filters
   ])
   .config(config)
